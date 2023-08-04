@@ -642,6 +642,10 @@ footer .footer-rights{
     background-color: #8a4dd0;
 }
 @media screen and (max-width: 1350px) {
+     body{
+
+        min-width: fit-content;
+    }
   
     
     .first{
