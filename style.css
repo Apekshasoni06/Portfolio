@@ -643,10 +643,7 @@ footer .footer-rights{
 }
 @media screen and (max-width: 1350px) {
   
-    body{
-      
-        min-width: fit-content;
-    }
+    
     .first{
         flex-direction: column-reverse;
        
