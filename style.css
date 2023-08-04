@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+body{
+    background-color: #413674;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav a, .footer-fourth a {
+    position: relative;
+    color: #0a0a0a;
+    text-decoration: none;
+  }
+  
+ nav a:hover, .footer-fourth a:hover {
+    color: #fa0000;
+  }
+  
+ nav a::before, .footer-fourth a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #00ffea;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+ nav a:hover::before,  .footer-fourth a:hover::before {
+    transform: scaleX(1);
+  }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #240b47;
+    height: 100px;
+    
+
+}
+nav .left{
+    font-family: 'Piedra', cursive;
+    font-size: 2rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li a:hover{
+    color: lavender;
+    font-size: 1.05rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.first > div{
+    width:40%;
+}
+.leftSection{
+    font-family: 'Chelsea Market', cursive;
+  
+    font-size: 3rem;        
+}
+.leftSection .btn{
+    padding: 12px;
+    background-color: rgb(29, 29, 48);
+    color: white;
+    box-shadow: 4px 4px 0 black;
+   
+    border-radius:6px ;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+}
+.leftSection  button:active{
+    transform:translateX(4px) translateY(4px);
+    box-shadow: 0 0 0  black; 
+}
+
+.rightSection img{
+    width:470px;   
+   
+}
+.purple{
+    color: #000000;
+}
+#element{
+    color: #000000;
+}
+.second{
+    max-width: 80vw;
+    margin:auto;
+    height: 80vh;
+
+}
+main hr{
+    border:0;
+    background:#0a0829;
+    height:1.2px;
+    margin: 10px 84px;
+
+}
+.second h1{
+    color: #0a0414;
+    font-size:2rem ;
+}
+.text-grey{
+    color:rgb(200, 183, 218)
+}
+.second .box{
+    background: rgb(26, 16, 114);
+    height: 2px;
+    margin: 56px 0;
+    width: 80vw;
+    display:flex
+}
+.second .vertical{
+    background-color: rgb(26, 16, 114);
+    height: 93px;
+    width:2px;
+    margin:0 12vw;
+  
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width:250px;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+}
+.vertical-desc{
+    position: relative;
+    top: 100px;
+    color: rgb(0, 0, 0);
+    width:200px;
+    font-size:13px;
+    font-weight: 900;
+    
+
+}
+.img-top{
+    width: 70px;
+    height: 25px;
+    position: relative;
+    top: -32px;
+    left:-9px;
+}
+.img-top1{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: -34px;
+    left:-9px;
+}
+.footer{
+    display: flex;
+    padding:23px 122px;
+    justify-content: space-evenly;
+}
+footer{
+    background-color: #240b47;
+   
+    
+}
+.footer ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.footer ul li a:hover{
+    color: lavender;
+    font-size: 1.05rem;
+}
+.footer > div{
+    width: 200px;
+}
+footer .footer-rights{
+    color:grey;
+    text-align: center;
+    padding: 12px 0;
+
+}
+.AboutFirst{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px;
+}
+.heading{
+    padding:20px;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Piedra', cursive;
+  
+
+}
+.desc{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+.leftAbout{
+    
+    margin:20px 20px;
+
+}
+
+.AboutFirst > div{
+    width:50%;
+}
+.rightAbout img{
+    width:500px;
+
+}
+
+.AboutSkill{
+    display: flex;
+    justify-content:center;
+    
+    
+}
+.row{
+    box-shadow:4px 4px 4px rgb(137, 131, 221);
+    
+    margin: 10px 20px;
+    background-color: rgb(36, 10, 107);
+    height: 270px;
+    width:200px;
+    
+    
+}
+.row img{
+    width:80px;
+    height: 120px;
+    padding: 5px;   
+    
+}
+.row .card-title{
+    background-color: rgb(81, 74, 172);
+    height: 130px;
+    justify-content: center;
+}
+.row .card-body{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+    font-family:'Playfair Display', serif;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+.row .card-desc{
+    text-align:center;
+    font-size:15px;
+    
+   
+}
+.txt-col{
+    color: rgb(203, 200, 248);
+}
+.contacts ul{
+    display: flex;
+    justify-content: center;
+
+}
+.contacts ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+.contacts ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.contacts ul li a:hover{
+    color: lavender;
+    font-size: 1.05rem;
+}
+.contacts img{
+    width:30px;
+    margin-top:20px;
+}
+.SkillHeading{
+    font-family: 'Piedra', cursive;
+ 
+    text-align: center;
+    padding:20px;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+}
+.firstcertification{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin:50px;
+    
+
+}
+.row1{
+    background-color: rgb(81, 74, 172);
+    
+    height:140px;
+    transition: transform .2s;
+    width:90vw;
+    display: flex;
+    border-bottom: 1px solid black;
+    box-shadow: 4px 4px 0 rgb(226, 225, 241);
+    
+}
+.row1:hover {
+    transform: scale(1.05);
+}
+.row1 .cimg{
+    background-color: white;
+}
+.row1 img{
+    width:100px;
+    height: 130px;
+    padding: 10px;
+    
+    
+}
+.row1 .row1-title{
+    color: black;
+    padding:20px
+}
+.row1 .row1-title .date{
+    color: black;
+}
+.row1 .cimg{
+
+    border: 1px solid black;
+    
+  
+}
+.row1 .cimg img{
+    width:100px;
+    height: 120px;
+  
+  
+    
+    
+}
+.row1-skills{
+    display:flex;
+    padding-top:5px;
+    
+}
+.row1-skills .round{
+    background-color: #e1e0f7;
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;   
+    
+}
+.row1 .date{
+    color: black;
+    margin-left: auto;
+    padding: 5px;
+    font-weight: 600;
+ 
+}
+.row1 .btn{
+    padding: 10px;
+    background-color: rgb(29, 29, 48);
+    color: white;
+    outline: 2px solid white;
+    outline-offset:-5px;
+    border-radius:6px ;
+    font-size: 12px;
+    cursor: pointer;
+    width:125px;
+    margin-top: 5px;
+
+}
+.row1 .date{
+    justify-content: center;
+}
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-card {
+    max-width: 300px;
+    background-color: rgb(81, 74, 172);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    outline: offset;
+
+    border-radius: 8px 8px 0 0;
+}
+
+.project-card .card-body {
+    padding: 10px;
+    height: 390px;
+   
+}
+
+.project-card h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.project-card a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #441f99;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-card a:hover {
+    background-color: #8a4dd0;
+}
+.project-card1 {
+    max-width: 300px;
+    background-color: rgb(81, 74, 172);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.project-card1 img {
+    
+    height: 240px;
+
+    border-radius: 8px 8px 0 0;
+}
+
+.project-card1 .card-body {
+    padding: 5px;
+    height: 395px;
+}
+
+.project-card1 h3 {
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-card1 p {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.project-card1 a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #441f99;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-card1 a:hover {
+    background-color: #8a4dd0;
+}
+.project-card2 {
+    max-width: 300px;
+    background-color: rgb(81, 74, 172);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    overflow: hidden;
+}
+.project-card1 .para2{
+    margin-bottom: 15px;
+}
+.project-card .para1{
+    margin-bottom: 35px;
+}
+
+.project-card2 img {
+    width:310px;
+    height: 320px;
+    
+   
+    object-fit: cover;
+    outline: offset;
+
+    border-radius: 8px 8px 0 0;
+}
+
+.project-card2 .card-body {
+    padding: 10px;
+    height: 310px;
+      justify-content: space-evenly;
+    
+}
+
+.project-card2 h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-card2 p {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.project-card2 .para3{
+    margin-bottom: 125px;
+}
+
+.project-card2  a {
+    
+  
+    padding: 10px 15px;
+    background-color: #441f99;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+    
+
+.project-card2 a:hover {
+    background-color: #8a4dd0;
+}
+.project-card3 {
+    max-width: 300px;
+    background-color: rgb(81, 74, 172);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.project-card3 img {
+    width:300px;
+    height: 340px;
+    
+   
+    outline: offset;
+
+    border-radius: 8px 8px 0 0;
+}
+
+.project-card3 .card-body {
+    padding: 10px;
+    height: 310px;
+      justify-content: space-evenly;
+    
+}
+
+.project-card3 h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-card3 p {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.project-card3 .para4{
+    margin-bottom: 100px;
+}
+
+
+.project-card3  a {
+    
+  
+    padding: 10px 15px;
+    background-color: #441f99;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+    
+
+.project-card3 a:hover {
+    background-color: #8a4dd0;
+}
+@media screen and (max-width: 1350px) {
+  
+    body{
+      
+        min-width: fit-content;
+    }
+    .first{
+        flex-direction: column-reverse;
+       
+    }
+    footer{
+       margin-top: 277px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .second .vertical{
+        height: unset;
+        
+    }
+    .vertical-title{
+        left: 77px;
+        
+    }
+    .vertical-desc{
+        left: 77px;
+        margin-bottom: 10px;
+
+    }
+    nav{
+        flex-direction: column;
+    }
+    .leftSection{
+        width: 76% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        
+      
+    }
+    .rightSection{
+        width: 575px !important;
+    }
+    .vertical .img-top{
+        top:112px;
+    }
+    .vertical .img-top1{
+        top:112px;
+    }
+    .AboutFirst{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .AboutSkill {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    align-items: center;
+    }
+    .firstcertification{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .firstcertification .row1{
+        display: flex;
+        flex-wrap: wrap;
+        height: 280px;
+        width: 719px;
+    }
+    .row1 .row1-title {
+       
+        width: 547px;
+    }
+    .row1 .cimg{
+
+       
+        height: 138px;
+      
+    }
+   
+}
