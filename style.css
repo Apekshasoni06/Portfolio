@@ -642,18 +642,18 @@ footer .footer-rights{
     background-color: #8a4dd0;
 }
 @media screen and (max-width: 1350px) {
-     body{
-
-        min-width: fit-content;
-    }
   
-    
+   
     .first{
         flex-direction: column-reverse;
+        flex-wrap: wrap;
+        margin-left: 256px;
+        width: 458px;
        
     }
     footer{
-       margin-top: 277px;
+        margin-top: 334px;
+        width: 269%;
     }
     .box{
         flex-direction: column;
@@ -673,6 +673,7 @@ footer .footer-rights{
     }
     nav{
         flex-direction: column;
+        width: 268%;
     }
     .leftSection{
         width: 76% !important;
@@ -685,6 +686,7 @@ footer .footer-rights{
     }
     .rightSection{
         width: 575px !important;
+        
     }
     .vertical .img-top{
         top:112px;
@@ -695,17 +697,26 @@ footer .footer-rights{
     .AboutFirst{
         display: flex;
         flex-direction: column-reverse;
+        width:968px;
     }
     .AboutSkill {
         display: flex;
         flex-direction: column;
         justify-content: center;
     align-items: center;
+    width: 1000px;
+    }
+    .SkillHeading{
+        margin-left: 420px;
     }
     .firstcertification{
         
         display: flex;
+        width: 945px;
         flex-direction: column;
+    }
+    .project-section{
+        width: 951px;
     }
     .firstcertification .row1{
         display: flex;
