@@ -10,6 +10,8 @@ body{
 *{
     margin: 0;
     padding: 0;
+    
+    
 }
 nav a, .footer-fourth a {
     position: relative;
@@ -641,30 +643,52 @@ footer .footer-rights{
 .project-card3 a:hover {
     background-color: #8a4dd0;
 }
-@media screen and (max-width: 1350px) {
-  
+@media screen and (max-width: 600px) {
+    
+    
+    
    
     .first{
         flex-direction: column-reverse;
         flex-wrap: wrap;
-        margin-left: 256px;
-        width: 458px;
-       
+        margin-left: -81px;
+        width: 446px;
     }
     footer{
         margin-top: 334px;
-        width: 269%;
+        overflow-x: hidden;
+        
     }
+    .footer{
+        font-size: 10px;
+  
+        
+    }
+    
     .box{
-        flex-direction: column;
+        flex-direction: column ; 
+       
+    }
+    .first, .AboutFirst, .AboutSkill, .firstcertification, .SkillHeading, .cimg, .project-section{
+        overflow-x: hidden;
+    }
+    nav{
+        overflow-x: hidden;
+
+    }
+    .second{
+        height: 214vw;
+        overflow-x: hidden;
+        
     }
     .second .vertical{
         height: unset;
         
+        
     }
     .vertical-title{
-        left: 77px;
-        
+        left: 71px;
+        font-size: 14px;
     }
     .vertical-desc{
         left: 77px;
@@ -673,7 +697,12 @@ footer .footer-rights{
     }
     nav{
         flex-direction: column;
-        width: 268%;
+        max-width: 100%;
+        
+    }
+    nav .right{
+        padding:0 105px;   
+        font-size: 13px;
     }
     .leftSection{
         width: 76% !important;
@@ -697,32 +726,45 @@ footer .footer-rights{
     .AboutFirst{
         display: flex;
         flex-direction: column-reverse;
-        width:968px;
+        
+    }
+    .rightAbout{
+        margin-right: 50%;
+        
+    }
+    .rightAbout img{
+        width: 200%;
     }
     .AboutSkill {
         display: flex;
         flex-direction: column;
         justify-content: center;
     align-items: center;
-    width: 1000px;
+    
     }
-    .SkillHeading{
-        margin-left: 420px;
-    }
+    
     .firstcertification{
         
         display: flex;
-        width: 945px;
+        margin-left:32px;
+        
         flex-direction: column;
+        width:311px;
+       
     }
-    .project-section{
-        width: 951px;
-    }
+    
     .firstcertification .row1{
         display: flex;
         flex-wrap: wrap;
-        height: 280px;
-        width: 719px;
+        height: 567px;
+        
+        padding: 4px;
+        align-items: center;
+        justify-content: center;
+    }
+    .row1-skills{
+        display: flex;
+        flex-direction: column;
     }
     .row1 .row1-title {
        
@@ -733,6 +775,9 @@ footer .footer-rights{
        
         height: 138px;
       
+    }
+    .row1 .date{
+        margin-right: 20px;
     }
    
 }
