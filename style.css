@@ -767,6 +767,7 @@ footer .footer-rights{
         flex-direction: column;
     }
     .row1 .row1-title {
+        padding: 24px;
        
         width: 547px;
     }
