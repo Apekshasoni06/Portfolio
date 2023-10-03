@@ -643,6 +643,59 @@ footer .footer-rights{
 .project-card3 a:hover {
     background-color: #8a4dd0;
 }
+.project-card4 {
+    max-width: 300px;
+    background-color: rgb(81, 74, 172);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.project-card4 img {
+    width:300px;
+    height: 340px;
+    
+   
+    outline: offset;
+
+    border-radius: 8px 8px 0 0;
+}
+
+.project-card4 .card-body {
+    padding: 10px;
+    height: 310px;
+      justify-content: space-evenly;
+    
+}
+
+.project-card4 h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-card4 p {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.project-card4 .para4{
+    margin-bottom: 100px;
+}
+
+
+.project-card4  a {
+    
+  
+    padding: 10px 15px;
+    background-color: #441f99;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
 @media screen and (max-width: 600px) {
     
     
